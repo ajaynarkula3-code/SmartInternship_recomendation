@@ -278,3 +278,5 @@ npm run dev
 - **Seed data** runs in one transaction, so a failed first start can't leave a half-seeded database.
 - **Frontend session expiry**: an expired/invalid token now clears the session and redirects to `/login`.
 - Removed stale build output (`backend/target`, `frontend/dist`); rebuild with `mvn spring-boot:run` / `npm run dev`.
+#   p r o j e c t - f r o n t  
+ 
